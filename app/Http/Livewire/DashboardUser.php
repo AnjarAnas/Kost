@@ -21,9 +21,6 @@ class DashboardUser extends Component
         ->join('bulan','pembayaran.id_bulan','=','bulan.id_bulan')
         ->where('pembayaran.id_user','=',$id_user)
         ->get();
-        
-        
         return view('livewire.dashboard-user')->extends('layouts.app')->section('content');
-    }
-    
+    }  
 }

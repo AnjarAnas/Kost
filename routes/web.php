@@ -10,6 +10,7 @@ use App\Http\Livewire\Konfimasi;
 use App\Http\Livewire\Login;
 use App\Http\Livewire\Logout;
 use App\Http\Livewire\TambahUser;
+use App\Http\Livewire\UpdateStatus;
 use App\Http\Livewire\UserKeluarAdmin;
 use Illuminate\Support\Facades\Route;
 
